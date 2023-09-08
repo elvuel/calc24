@@ -134,6 +134,7 @@
             class="btn variant-filled"
             on:click|preventDefault={() => {
               round();
+              closeTips();
             }}>换一组</button
           >
           <button
